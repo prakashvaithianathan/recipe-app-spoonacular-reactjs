@@ -1,0 +1,21 @@
+.card{
+    width: 300px;
+    transition:transform .2s ease !important;
+    box-shadow: 2px 2px 10px grey !important;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+.image{
+    width: 300px;
+    height:300px;
+
+}
+
+
+.cardTitle{
+    text-align: center;
+}

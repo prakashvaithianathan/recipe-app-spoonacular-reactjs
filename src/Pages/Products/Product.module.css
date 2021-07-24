@@ -1,0 +1,26 @@
+.card{
+    width: 400px;
+    height: 400px;
+    transition:transform .2s ease !important;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+.image{
+    width: 100%;
+}
+
+.grid{
+    gap: 20px !important;
+    
+}
+
+.loading{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+}

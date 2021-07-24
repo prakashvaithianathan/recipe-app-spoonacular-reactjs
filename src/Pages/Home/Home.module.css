@@ -1,0 +1,10 @@
+.card{
+    display:grid;
+    gap: 50px !important;
+    margin: 50px auto !important;
+}
+
+.title{
+    margin: 50px 0;
+    text-align: center;
+}
