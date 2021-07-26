@@ -19,3 +19,10 @@
 .cardTitle{
     text-align: center;
 }
+
+.learnMore{
+    border-bottom: 1px solid blue;
+    float: right;
+    margin: 10px !important;
+    color: blue;
+}

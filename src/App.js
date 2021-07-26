@@ -6,16 +6,13 @@ import Products from './Pages/Products/Products'
 import {Provider} from 'react-redux'
 import {createStore } from 'redux'
 import reducer from './Store/Reducer/Index'
-import dotenv from 'dotenv'
 import Information from './Pages/Products/Information/Information'
+// import EnvFile from './webpack.config'
 
+// import dotenv from 'dotenv'
+// dotenv.config({path:'./.env'})
 
-
-
-dotenv.config({path:'./config.env'})
-
-
-console.log(process.env.API_KEY);
+console.log(process.env.API_NAME);
 const store = createStore(reducer)
 
 const App = () => {
@@ -23,44 +20,7 @@ const App = () => {
   const [state, setState] = useState([])
 
 
-
-// useEffect(()=>{
-//   const getData=async()=>{
-//     const {data} = await axios.get('https://api.spoonacular.com/food/search?query=mushroom&number=100&apiKey=d32ac3eac7684d5f80b0955b9e904d67')
-//     setState((prevState)=>{
-//       return {...prevState,
-//         state:[data]
-//       }
-           
-
-//     })
-//   }
-  
-//   getData()
-
-// },[])
-
-
-// if(state.length===0){
-//   return(
-//     <div>Loading...</div>
-//   )
-// }
-
-// state.state.map(data=>{
-//    const {searchResults}=(data)
-//    searchResults[0].results.map((data,index)=>{
-//      console.log(data);
-//    })
-// })
-
-
-// state.state[0].products.map((data,index)=>{
-//   console.log(state);
-//        console.log(data);
-// })
-
-// const {data:{recipes}}=state
+console.log(process.env.API);
 
 
 

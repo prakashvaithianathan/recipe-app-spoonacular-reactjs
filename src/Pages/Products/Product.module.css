@@ -2,6 +2,7 @@
     width: 400px;
     height: 400px;
     transition:transform .2s ease !important;
+    overflow: hidden;
 }
 
 .card:hover{
@@ -23,4 +24,16 @@
     align-items: center;
     justify-content:center;
     height:100vh;
+}
+
+.cardTitle{
+    position: absolute;
+    margin: -10px;
+}
+
+.learnMore{
+    border-bottom: 1px solid blue;
+    float: right;
+    margin-top: 50px !important;
+    color: blue;
 }
